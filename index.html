@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./dist/css/index.css">
+
+    <title>Stopwatch</title>
+</head>
+
+<body class="light">
+    <header>
+        <h1>Stopwatch</h1>
+    </header>
+    <div class="container">
+        <button class="mode">Dark</button>
+        <div class="stopwatch">
+            <div class="stopwatch-container">
+                <div class="clock">
+                    <p class="timer" id="timer">00:00:00</p>
+                    <span><i class="animation-i" id="animation-i"></i></span>
+                </div>
+                <div class="options">
+                    <button class="reset hide" id="reset">Reset</button>
+                    <button class="start-pause show" id="start-pause">Start</button>
+                    <button class="lap hide" id="lap">Lap</button>
+                </div>
+            </div>
+            <div class="lap-list" id="lap-list">
+                <h4>Lap List</h4>
+                <div class="lap-list-container">
+                    <ul id="lap-list-ul">
+                        <p id="lap-list-no-laps">No Laps</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy 2023 | Tharuneshwar S </p>
+        <div class="footer-links">
+            <a href="https://github.com/THARUNESHWAR-369" target="_blank" style="--icon-color: #222">
+                <i class="fa fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/tharuneshwar-s/" target="_blank" style="--icon-color: #0085ff">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="./dist/js/index.js"></script>
+</body>
+
+</html>
